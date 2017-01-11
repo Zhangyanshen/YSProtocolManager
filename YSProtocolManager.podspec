@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YSProtocolManager"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of YSProtocolManager."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   This is YSProtocolManager
+                   This is a long description of YSProtocolManager
                    DESC
 
   s.homepage     = "https://github.com/Zhangyanshen/YSProtocolManager.git"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "YSProtocolManager.{h,m}"
+  s.source_files  = "YSProtocolManager/YSProtocolManager/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
